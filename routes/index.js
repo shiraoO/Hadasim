@@ -40,7 +40,7 @@ router.get('/getVaccinationDetails', contact.getVaccinationDetails);
  * @returns {res.render} */
 router.post('/addVaccinationDetails', contact.addVaccinationDetails);
 
-router.get('/getActivePatientsByMonth', contact.getActivePatientsByMonth);
+router.get('/getNumberPatientsEachDayLastMonth', contact.getNumberPatientsEachDayLastMonth);
 router.get('/getUnvaccinatedUsersCount', contact.getUnvaccinatedUsersCount);
 router.get('/getPatientData', contact.getPatientData);
 

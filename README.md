@@ -42,9 +42,22 @@ And you need to enter the patient's ID
 The retrieval photo:
 ![img_18.png](img_18.png)
 
+Bonus question 2:
+A development session, I used a SQL table to create and manage the work. To test the functionality of the 
+GET and POST requests from the server, I used the Postman tool. By putting the API inside Postman, I was able to verify the results.
+
+For the POST requests, the server extracted the API and created a new row in the SQL table with the provided 
+data. To accomplish this, I checked the SQL table to provide appropriate hardware.
+
+As for the GET requests, produce the results in JSON format, which is intended for the organization to understand and process. 
+Using Postman, I could see the desired output and confirm that the data was displayed correctly.
+
+That's right, I tested and verified the functionality of the GET and POST requests and their quality 
+received from the server.
+
 Bonus question Question 3:
 Section A:(How many active patients were there each day in the last month?)
-GET:http://localhost:3000/getActivePatientsByMonth
+GET:http://localhost:3000/getNumberPatientsEachDayLastMonth/
 The request was sent with the appropriate month and year values (without the user entering).
 And you can see the table data of the date of a positive result:
 ![img_16.png](img_16.png)
